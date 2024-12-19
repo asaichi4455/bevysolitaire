@@ -1,0 +1,29 @@
+[package]
+name = "bevysolitaire"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+bevy = { version = "0.15.0", default-features = false }
+bevy_embedded_assets = "0.12.0"
+rand = "0.8.5"
+
+[features]
+default = [
+    "bevy/bevy_asset",
+    "bevy/bevy_audio",
+    "bevy/bevy_color",
+    "bevy/bevy_core_pipeline",
+    "bevy/bevy_picking",
+    "bevy/bevy_render",
+    "bevy/bevy_sprite",
+    "bevy/bevy_sprite_picking_backend",
+    "bevy/bevy_state",
+    "bevy/bevy_text",
+    "bevy/bevy_ui",
+    "bevy/bevy_ui_picking_backend",
+    "bevy/bevy_window",
+    "bevy/bevy_winit",
+    "bevy/png",
+    "bevy/vorbis",
+]
